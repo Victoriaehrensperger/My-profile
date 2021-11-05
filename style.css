@@ -1,0 +1,231 @@
+.photoEHL {
+	width: 100%;
+	height: 600px;
+	margin: 0px;
+	background-image: url("image/ehl.jpg");
+	background-size: cover;
+	opacity: 1;
+}
+
+.Victoria { 
+	border-radius: 50%;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.section-flex {
+	display: flex;
+	margin-top: 15px;
+	margin-bottom: 15 px;
+}
+
+.titlemove {
+	transition: 0.3s ease;
+}
+
+
+.titlemove:hover {font-size: 32px}
+
+.container {
+	font-family:'Open Sans', sans-serif;
+	color: black;
+	text-align: center;
+	background-color: white;
+	padding: 0px;
+	margin: 50px;
+
+}
+
+.parent { display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+}
+
+.premier {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	color: #669378;
+	text-align: center;
+	letter-spacing: 0px;
+}
+
+.green-text {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	color: #669378;
+	text-align: center;
+	letter-spacing: 0px;
+	color: #669378;
+	padding: auto 5px;
+}
+
+#div2 {
+	text-align: justify;
+	background-color: #dfe8df;
+	box-shadow: 5px 5px 24px rgba(0, 0, 0, 0.2);
+	
+	padding: 24px ;
+	margin: 15px 48px;
+
+}
+
+.historique {
+	margin: 50px;
+}
+
+.sectionhistorique h2,h4 {
+	margin: 0;
+}
+.sectionhistorique h4{
+	padding-bottom: 25px;
+}
+
+
+.clicklogo {
+	font-style: italic;
+	font-size: 10px;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 30px;
+	letter-spacing: 5px;
+	color: #3f3f3f;
+	margin-bottom: -15px;
+
+	text-align: center;
+}
+
+.emplois {
+	text-align: center;
+}
+
+.emploisphotos {
+	margin: 0;
+	border border-radius: 0px;
+	height: auto;
+	width: 100px;
+	transition: 0.3s ease;
+}
+
+.emploisphotos:hover {
+	width: 120px;
+	height: auto;
+}
+
+#premier {
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.intro {
+	justify-content: center;
+	font-size: 15px;
+}
+
+.nom{
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 25px;
+	font-weight: lighter;
+	letter-spacing: 5PX;
+	color: #669378;
+	text-align: center;
+	
+}
+
+h3{
+	font-size: 15px;
+	color: black;
+	
+}
+
+h4{
+	font-size: 12px;
+	font-weight: bolder;
+	font-style: italic;
+	text-align: left;
+}
+
+
+
+ul li {
+	list-style: none;
+	padding:  0px;
+	text-align: center;
+
+}
+
+.intérêts {
+	background-color: #dfe8df;
+	box-shadow: 5px 5px 24px rgba(0, 0, 0, 0.2);
+	width: 6000px auto;
+	margin: 25px 0px;
+	padding: 24px ;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.list-inline {
+	text-decoration: none;
+}
+
+.list-inline {
+	padding: 0;
+}
+
+.fab-btn {
+	border: none;
+	background: none;
+	font-size: 30px;
+}
+
+.fab-btn:hover {color: grey;}
+
+.twitt-btn {
+	border: none;
+	color: black;
+	background: none;
+	font-size: 30px;
+}
+
+.twitt-btn:hover {color: grey;}
+
+.inst-btn {
+	border: none;
+	color: black;
+	background: none;
+	font-size: 30px;
+}
+
+.inst-btn:hover {color: darkgrey;}
+
+.list-inline1 {
+	padding: 0;
+}
+
+a {text-decoration: none;}
+
+.list-inline1 li {
+	display: inline;
+}
+
+@media (max-width: 1200px) {
+	.parent { 
+		flex-wrap: wrap;
+	}	
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+	.parent { 
+		flex-wrap: wrap;
+	}
+}
